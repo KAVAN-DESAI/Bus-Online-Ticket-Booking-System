@@ -70,6 +70,7 @@ def loading():
 * Loading function add the feature of loading with the use of time library.
 
 ##### Ticket function: -
+
 ```python
 def ticket():
     x=datetime.datetime.now()
@@ -145,15 +146,16 @@ def ticket():
     print("************************************************************************")
     i=input("")
 ```
-*Ticket function is one of the most important function.
-*It deals with the information of the user/costumer.
-*It uses file I/O and real time operation to book ticket will available seats.
+
+* Ticket function is one of the most important function.
+* It deals with the information of the user/costumer.
+* It uses file I/O and real time operation to book ticket will available seats.
 
 ##### Seat function: -
 
-*Both seat function deals with booking the seats.
-*It takes care the no two costumers book the same seat.
-*And booked seats are not rebooked by another costumer.
+* Both seat function deals with booking the seats.
+* It takes care the no two costumers book the same seat.
+* And booked seats are not rebooked by another costumer.
 
 ##### Timming function: -
 
@@ -186,13 +188,13 @@ def timmings(a,b):
     loading()
     print("                        Enter your seat from subsequent window.")
 ```
-*Timming function provide real time bus availability.
-*According to choosen city, it provides the available bus timmings.
+* Timming function provide real time bus availability.
+* According to choosen city, it provides the available bus timmings.
 
 ##### Todaysdate function: -
 
-*It is specific to the day of booking.
-*as this project deals with real time booking.
+* It is specific to the day of booking.
+* As this project deals with real time booking.
 
 ##### From and To function: -
 
@@ -210,7 +212,7 @@ that they have booked "x numbered seat".
 
 ##### Date function: -
 
-*Date function is prompt towards selection of correct date, i.e. it will not
+* Date function is prompt towards selection of correct date, i.e. it will not
 accept the pass date.
 
 #### Calling the functions: -
@@ -225,13 +227,13 @@ date()
 
 ```
 
-*This is not recursive, it will run till the costumer/user completely books the ticket!
+* This is not recursive, it will run till the costumer/user completely books the ticket!
 
 
 #### Quick Approch: -
 
-*This project deals with real time ticket booking.
-*user/costumer has to input some basic detalis as name and gender etc.
-*Then user is provide available timmings for specific date city and all.
-*The tkinter library is used to book the seat number in bus(which is GUI).
-*And at last the user is provide the copy of ticket with details.
+* This project deals with real time ticket booking.
+* user/costumer has to input some basic detalis as name and gender etc.
+* Then user is provide available timmings for specific date city and all.
+* The tkinter library is used to book the seat number in bus(which is GUI).
+* And at last the user is provide the copy of ticket with details.
