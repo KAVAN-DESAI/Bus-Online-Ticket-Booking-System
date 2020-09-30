@@ -9,9 +9,9 @@ from tkinter import Tk, mainloop,TOP
 from time import time
 import sys
 #used tkinter for booking seat as GUI.
-file=open('text3.txt','r')
+#file=open('text3.txt','r')
 #file text3.txt is only form some presentation.
-print(file.read())
+#print(file.read())
 # mainMenu is to cancel or update the booking.
 def mainMenu(i):
     print("                        *************************MainMenu***************************")
@@ -27,11 +27,11 @@ def mainMenu(i):
 # Update function updates the seat or information
 def update():
     From()
-    foading()
+    loading()
     to()
     loading()
     date()
-    doading()
+    loading()
 
 #loding function give some attribute of loading                                        
 def loading():
